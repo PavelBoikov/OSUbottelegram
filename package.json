@@ -11,7 +11,7 @@
   "main": "botOSU.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node --require dotenv / config botOSU.js"
+    "start": "node botOSU.js"
   },
   "author": "Pavel Boikov (Pavel-Boikov1@mail.ru)",
   "license": "ISC",
