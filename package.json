@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "puppeteer": "^7.1.0",
+    "telegraf": "^4.0.3",
+    "telegram-bot-api": "^2.0.1"
+  },
+  "name": "osubot",
+  "version": "1.0.0",
+  "main": "botOSU.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Pavel Boikov (Pavel-Boikov1@mail.ru)",
+  "license": "ISC",
+  "description": ""
+}
