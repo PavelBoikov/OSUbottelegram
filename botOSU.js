@@ -14,7 +14,7 @@ cloudinary.config({
   api_key: process.env.API_KEY,
   api_secret: process.env.API_SECRET
 });
-cloudinary.uploader.upload("example.png", function(error, result) {console.log(result, error)});
+//cloudinary.uploader.upload("example.png", function(error, result) {console.log(result, error)});
 
 
 
