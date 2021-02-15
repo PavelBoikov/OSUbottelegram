@@ -8,16 +8,6 @@ const puppeteer = require('puppeteer');
 
 const GROUP_LIST = require("./constants");
 
-const cloudinary = require('cloudinary');
-cloudinary.config({
-  cloud_name: process.env.CLOUD_NAME,
-  api_key: process.env.API_KEY,
-  api_secret: process.env.API_SECRET
-});
-//cloudinary.uploader.upload("example.png", function(error, result) {console.log(result, error)});
-
-
-
 const bot = new Telegraf(process.env.BOT_TOKEN);
 bot.start((ctx) => ctx.reply(`
 Привет ${ctx.message.from.first_name}!
