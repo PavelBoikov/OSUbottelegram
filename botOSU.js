@@ -36,7 +36,10 @@ Z-19PD-2,
 
         const browser = await puppeteer.launch({
           headless:true,
-          args: ['--no-sandbox']
+          args: [' "--incognito",
+        "--no-sandbox",
+        "--single-process",
+        "--no-zygote"']
         });
           const page = await browser.newPage();
           await page.goto('http://www.osu.ru/pages/schedule/?request=rasp&filial=1&facult=6543&potok=2019&group=12365&mode=2w&print=1');
@@ -58,7 +61,10 @@ ctx.reply('Неизвестная группа ');
         ctx.reply('Пожалуйста подождите ваше расписание готовится это может занять некоторое время  ');
         const browser = await puppeteer.launch({
           headless:true,
-          args: ['--no-sandbox']
+          args: [' "--incognito",
+        "--no-sandbox",
+        "--single-process",
+        "--no-zygote"']
         });
           const page = await browser.newPage();
           await page.goto('http://www.osu.ru/pages/schedule/?request=rasp&filial=1&facult=6543&potok=2018&group=11850&mode=2w&print=1');
@@ -81,7 +87,10 @@ ctx.reply('Неизвестная группа ');
 
           const browser = await puppeteer.launch({
             headless:true,
-            args: ['--no-sandbox']
+            args: [' "--incognito",
+        "--no-sandbox",
+        "--single-process",
+        "--no-zygote"']
           });
             const page = await browser.newPage();
             await page.goto('http://www.osu.ru/pages/schedule/?request=rasp&filial=1&facult=6543&potok=2020&group=13288&mode=2w&print=1');
@@ -104,7 +113,10 @@ ctx.reply('Неизвестная группа ');
 
           const browser = await puppeteer.launch({
             headless:true,
-            args: ['--no-sandbox']
+            args: [' "--incognito",
+        "--no-sandbox",
+        "--single-process",
+        "--no-zygote"']
           });
             const page = await browser.newPage();
             await page.setViewport({
@@ -131,7 +143,10 @@ ctx.reply('Неизвестная группа ');
   
                 const browser = await puppeteer.launch({
                   headless:true,
-                  args: ['--no-sandbox']
+                  args: [' "--incognito",
+        "--no-sandbox",
+        "--single-process",
+        "--no-zygote"']
                 });
                   const page = await browser.newPage();
                   await page.setViewport({
@@ -158,7 +173,10 @@ ctx.reply('Неизвестная группа ');
                        
                       const browser = await puppeteer.launch({
                         headless:true,
-                        args: ['--no-sandbox']
+                        args: [' "--incognito",
+        "--no-sandbox",
+        "--single-process",
+        "--no-zygote"']
                       });
                       const page = await browser.newPage();
                       await page.setViewport({
